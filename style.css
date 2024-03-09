@@ -31,9 +31,8 @@ body {
     height: 75px;
     display: flex;
     margin: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 600px;
 }
 
 .footer {
@@ -52,11 +51,21 @@ ul {
     list-style-type: none;
     text-decoration: none;
     gap: 12px;
+    margin-right: 200px;
+    flex-wrap: wrap;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+.title, .section1text {
+    margin-left: 200px;
+}
+
+.mainimage {
+    margin-right: 200px;
 }
 
 .title, a, .bodytext {
@@ -70,7 +79,7 @@ a {
     width: 100%;
     display: flex;
     margin: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -80,8 +89,6 @@ a {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-bottom: 100px;
     justify-content: space-between;
     align-items: center;
@@ -154,8 +161,6 @@ img {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    padding: 0;
-    margin: 12px;
 }
 
 #quote2 {
@@ -163,16 +168,14 @@ img {
     font-style: italic;
     font-weight: 500;
     color: #1F2937;
-    padding-left: 300px;
-    margin: 12px;
+    margin-left: 500px;
 }
 
 #quote3 {
     font-size: 24px;
     font-weight: 900;
     color: #1F2937;
-    padding-left: 350px;
-    margin: 12px;
+    margin-left: 600px;
 }
 
 .section4 {
